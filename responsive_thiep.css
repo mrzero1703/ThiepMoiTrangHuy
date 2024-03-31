@@ -1,4 +1,4 @@
-@media  screen and (min-width: 391px){
+@media  screen and (max-width: 390px){
     body{
         overflow-x: hidden;
         width:100%;
@@ -25,7 +25,55 @@
         margin-left: 2rem;
     }
 }
-@media screen and (min-width: 430px){
+@media screen and (max-width: 430px) and (max-height:932px){
+    body{
+        overflow-x: hidden;
+        width:100%;
+    }
+    .date_wedding{
+        margin-bottom: 4rem;
+        margin-left: 2.2rem;
+        width:35.7rem;
+        margin-top: 0rem;
+    }
+    .container{
+        width:33rem;
+        margin-left: -0.6rem;
+    }
+    .back_info{
+        width:35.7rem;
+        height:25rem;
+        position:absolute;
+        margin-top: -2.5rem;
+    }
+    .su_kien_cuoi{
+        margin-left: 3rem;
+        width: 33rem;
+    }
+    .date_countdown{
+        margin-top: -80px;
+        margin-left: 2rem;
+    }
+    .icon_wedding{
+        margin-left: 9rem;
+    }
+    .boy_home{
+        margin-left: 1rem;
+    }
+    .text_nha_trai{
+        margin-left: 3.5rem;
+    }
+    .girl_home{
+        margin-left: 14rem;
+    }
+    .text_nha_gai{
+        margin-left: 16.5rem;
+    }
+    .container_thanh_hon{
+        height:42rem;
+    }
+}
+@media screen and (max-width: 425px){
     body{
         overflow-x: hidden;
         width:100%;
@@ -69,7 +117,6 @@
         height:42rem;
     }
 }
-
 @media screen and (max-width: 414px){
     body{
         overflow-x: hidden;
@@ -119,3 +166,8 @@
         height:42rem;
     }
 }
+@media screen and (max-width:768px) and (max-height:1004px) {
+    .date_wedding{
+        width:40rem;
+    }
+} 

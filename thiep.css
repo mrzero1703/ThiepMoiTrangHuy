@@ -11,7 +11,7 @@ body{
     display:flex;
     align-items: center;
     justify-content: center;
-    width:22rem;
+    width:25rem;
     margin-left: 3px;
     /* padding-right: 10px; */
     flex-direction: column;
@@ -19,7 +19,7 @@ body{
     
 }
 .date_wedding{
-   margin-top: -2.5rem;
+   margin-top: -0.5rem;
    width:100%;
    height:100%;
    margin-bottom: -14px;
@@ -39,7 +39,7 @@ body{
     background-color: aliceblue;
     width:100%;
     height:250px;
-    padding-top: 40px;
+    padding-top:0;
 }
 .back_info{
     width:25rem;
@@ -108,8 +108,8 @@ body{
     color:#90110A
 }
 .su_kien_cuoi{
-    padding-top: 40px;
-    width:100%;
+    padding-top: 9px;
+    width:30rem;
     height:100%;
 }
 .img_su_kien_cuoi{
@@ -120,12 +120,14 @@ body{
 .container_dinh_hon{
     width:20rem;
     height:37rem;
-    background-color: #90110A;
+    background-color: #af160e;
     display:flex;
     justify-content: center;
     margin-left: 4.5rem;
     margin-top: -6rem;
+    filter: brightness(100%);
     border-radius: 1rem;
+    
 }
 .text_dinh_hon{
     color:#fff;
@@ -166,8 +168,8 @@ body{
 /* thành hôn */
 .container_thanh_hon{
     width:20rem;
-    height:37rem;
-    background-color: #90110A;
+    height:42rem;
+    background-color: #af160e;
     display:flex;
     justify-content: center;
     margin-left: 4.5rem;
