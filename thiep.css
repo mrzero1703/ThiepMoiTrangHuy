@@ -20,6 +20,7 @@ body{
     flex-direction: column;
     background-color: aliceblue;
     position: relative;
+    margin-top: 100rem;
     
 }
 .date_wedding{
