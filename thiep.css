@@ -140,7 +140,7 @@ body{
     
 }
 .img_dinh_hon{
-    width:100%;
+    width:16;
     border-radius: 1.5rem;
     height:60%;
 }
@@ -149,6 +149,10 @@ body{
 }
 .icon_time{
     padding: 0 3px 5px 0;
+    color:#fff;
+}
+.icon_address{
+    color:#fff;
 }
 .btn_address{
     margin: 2rem 0 0 0 ;
@@ -175,17 +179,16 @@ body{
 }
 .happy_ending
 {
-    width:100%;
-    margin-top: -10rem;
+    width:16rem;
+    margin-top: -6rem;
 }
 .container_logo
 {
     width:100%;
-    margin-top:-5rem;
     display:inline-flex;
     justify-content: center;
     align-items: center;
-    margin-top: -8rem;
+    margin-top: -6rem;
 
 }
 .logo{
@@ -195,4 +198,10 @@ body{
 .text_logo{
     margin-left: -1rem;
     opacity:0.4;
+}
+.ending{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
