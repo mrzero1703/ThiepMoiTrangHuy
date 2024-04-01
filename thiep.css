@@ -16,6 +16,7 @@ body{
     /* padding-right: 10px; */
     flex-direction: column;
     background-color: aliceblue;
+    position: relative;
     
 }
 .date_wedding{
@@ -45,6 +46,20 @@ body{
     width:25rem;
     height:22rem;
     position:absolute;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.7;
+    animation: lightEffect 2s infinite alternate; /* Áp dụng animation */
+}
+@keyframes lightEffect {
+    0% {
+        opacity: 0.7; /* Bắt đầu với độ mờ ban đầu */
+    }
+    100% {
+        opacity: 0.9; /* Kết thúc với độ mờ tối đa */
+    }
 }
 .back_info {
     opacity: 0; /* Bắt đầu với độ mờ 0 (không hiển thị) */
@@ -140,7 +155,7 @@ body{
     
 }
 .img_dinh_hon{
-    width:16;
+    width:16rem;
     border-radius: 1.5rem;
     height:60%;
 }
@@ -166,6 +181,11 @@ body{
     padding:10px 10px 10px 10px;
     margin-left: 3rem;
 }
+.btn_map:hover{
+    background-color: #000;
+    color:#fff;
+    cursor: pointer;
+}
 /* thành hôn */
 .container_thanh_hon{
     width:20rem;
@@ -180,7 +200,7 @@ body{
 .happy_ending
 {
     width:16rem;
-    margin-top: -6rem;
+    margin-top: 0rem;
 }
 .container_logo
 {
@@ -188,7 +208,7 @@ body{
     display:inline-flex;
     justify-content: center;
     align-items: center;
-    margin-top: -6rem;
+    margin-top: -2rem;
 
 }
 .logo{
