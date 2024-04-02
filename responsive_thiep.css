@@ -26,7 +26,9 @@
         margin-left: 2rem;
     }
    
-    
+    .back_info{
+        height:32rem;
+    }
     .text_nha_trai{
         margin-left: 2rem;
     }
@@ -53,7 +55,7 @@
     }
     .back_info{
         width:35.7rem;
-        height:25rem;
+        height:32rem;
         position:absolute;
         margin-top: -2.5rem;
     }
@@ -152,7 +154,7 @@
     }
     .back_info{
         width:28rem;
-        height:28rem;
+        height:32rem;
         margin-top: -2.5rem;
         position:absolute;
     }
