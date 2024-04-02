@@ -18,7 +18,7 @@
         margin-top: 85rem;
     }
     .su_kien_cuoi{
-        padding-top: 10rem;
+        padding-top: 12rem;
     }
     .container{
         width:25rem;
@@ -41,7 +41,7 @@
   and (device-height: 824px) 
   and (-webkit-device-pixel-ratio: 3) {
     .su_kien_cuoi{
-        padding-top: 10rem;
+        padding-top: 12rem;
     }
     .back_info{
         height:32rem;
@@ -76,7 +76,7 @@
     .su_kien_cuoi{
         margin-left: 3rem;
         width: 33rem;
-        padding-top: 8rem;
+        padding-top: 12rem;
     }
     .icon_wedding{
         margin-left: 9rem;
@@ -121,7 +121,7 @@
         margin-left: -0.6rem;
     }
     .su_kien_cuoi{
-        padding-top: 8rem;
+        padding-top: 12rem;
     }
     .back_info{
         width:28rem;
@@ -254,6 +254,15 @@
   and (device-height: 844px) 
   and (-webkit-device-pixel-ratio: 3) {
     /* Điều chỉnh các thuộc tính CSS cho iPhone 13 Pro */
+    .back_info{
+        height:32rem;
+    }
+    .su_kien_cuoi{
+        padding-top: 12rem;
+    }
+    .date_wedding{
+        width:40rem;
+    }
 }
 
 /* iPhone 13 Pro Max */
@@ -262,4 +271,13 @@
   and (device-height: 926px) 
   and (-webkit-device-pixel-ratio: 3) {
     /* Điều chỉnh các thuộc tính CSS cho iPhone 13 Pro Max */
+    .back_info{
+        height:32rem;
+    }
+    .su_kien_cuoi{
+        padding-top: 12rem;
+    }
+    .date_wedding{
+        width:40rem;
+    }
 }
