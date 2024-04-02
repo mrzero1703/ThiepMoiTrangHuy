@@ -18,7 +18,7 @@
         margin-top: 85rem;
     }
     .su_kien_cuoi{
-        padding-top: 8rem;
+        padding-top: 10rem;
     }
     .container{
         width:25rem;
@@ -36,6 +36,17 @@
         margin-left: 2rem;
     }
 }
+@media only screen 
+  and (device-width: 400px) 
+  and (device-height: 824px) 
+  and (-webkit-device-pixel-ratio: 3) {
+    .su_kien_cuoi{
+        padding-top: 10rem;
+    }
+    .back_info{
+        height:32rem;
+    }
+  }
 @media only screen 
   and (device-width: 428px) 
   and (device-height: 926px) 
