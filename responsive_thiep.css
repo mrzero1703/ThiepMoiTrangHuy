@@ -18,7 +18,7 @@
         margin-top: 85rem;
     }
     .su_kien_cuoi{
-        padding-top: 15rem;
+        margin-top: 15rem;
     }
     .container{
         width:25rem;
@@ -41,7 +41,7 @@
   and (device-height: 824px) 
   and (-webkit-device-pixel-ratio: 3) {
     .su_kien_cuoi{
-        padding-top: 12rem;
+        margin-top: 15rem;
     }
     .back_info{
         height:32rem;
@@ -76,7 +76,7 @@
     .su_kien_cuoi{
         margin-left: 3rem;
         width: 33rem;
-        padding-top: 12rem;
+        margin-top: 14rem;
     }
     .icon_wedding{
         margin-left: 9rem;
