@@ -18,7 +18,7 @@
         margin-top: 85rem;
     }
     .su_kien_cuoi{
-        padding-top: 6rem;
+        padding-top: 8rem;
     }
     .container{
         width:25rem;
@@ -65,7 +65,7 @@
     .su_kien_cuoi{
         margin-left: 3rem;
         width: 33rem;
-        padding-top: 6rem;
+        padding-top: 8rem;
     }
     .icon_wedding{
         margin-left: 9rem;
@@ -110,7 +110,7 @@
         margin-left: -0.6rem;
     }
     .su_kien_cuoi{
-        padding-top: 6rem;
+        padding-top: 8rem;
     }
     .back_info{
         width:28rem;
@@ -196,7 +196,12 @@
   and (device-height: 896px) 
   and (-webkit-device-pixel-ratio: 2) {
     /* Điều chỉnh các thuộc tính CSS cho iPhone 11 */
-
+    .back_info{
+        height:32rem;
+    }
+    .su_kien_cuoi{
+        padding-top: 8rem;
+    }
     .date_wedding{
         width:40rem;
     }
