@@ -236,13 +236,7 @@
     }
 }
 
-/* iPhone 15 Pro Max */
-@media only screen 
-  and (device-width: 428px) 
-  and (device-height: 926px) 
-  and (-webkit-device-pixel-ratio: 3) {
-    /* Điều chỉnh các thuộc tính CSS cho iPhone 15 Pro Max */
-}
+
 
 
 /* iPhone 13 Pro */
